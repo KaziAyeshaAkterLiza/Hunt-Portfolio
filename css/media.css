@@ -1,0 +1,220 @@
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+    .about_item {
+        width: 288px;
+        padding-top: 25px;
+        padding-bottom: 27px;
+    }
+
+    .main_circle .circle {
+        width: 300px;
+        height: 300px;
+    }
+    .about_top {
+        top: 4%;
+
+    }
+    .about_top::before {
+        left: 43%;
+    }
+
+    .about_bottom::before {
+        left: 43%;
+    }
+
+    .about_left {
+        left: 0;
+    }
+    .about_right {
+        right: 0;
+    }
+    .about_right::after {
+        left: -15%;
+    }
+    .about_bottom {
+        padding-top: 25px;
+        padding-bottom: 30px;
+        bottom: 1.5%;
+
+    }
+        /* Counter Part Start */
+        .count_item .content {
+            width: 157px;
+        }
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+        /* Menu Part */
+        .navbar-nav{
+            float: right;
+        }
+        #navbarSupportedContent {
+            background: #000;
+        }
+        .navbar-toggler:focus {
+            outline: none;
+        }
+        .navbar-toggler:active > i{
+            color: #fec600;
+        }
+        .navbar-toggler i{
+            color: #ffffff;
+        }
+        .navbar-nav li a {
+            margin: 0;
+            padding: 10px 15px;
+            text-align: right;
+        }
+        .navbar-nav li a::after {
+            width: 90%;
+            height: 2px;
+            right: -15px;
+            bottom: 2px;
+        }
+        .menu_add{
+            margin-right: 0;
+    
+        }
+        .add_menu_hight {
+            padding-top: 5px !important;
+            padding-bottom: 1px !important;
+        }
+
+        /* About Part */
+    .about_item {
+        width: 240px;
+        padding: 16px;
+    }
+
+    .about_item p {
+        font-size: 12px;
+        line-height: 22px;
+        padding-top: 22px;
+    }
+
+    .about_top {
+        width: 270px;
+        padding-top: 49px;
+        padding-bottom: 6px;
+        top: 8%;
+    }
+
+    .about_top::before {
+        left: 43%;
+    }
+
+    .about_top::after {
+        height: 16px;
+        width: 16px;
+        bottom: -53px;
+    }
+
+    .about_bottom {
+        width: 300px;
+        padding-top: 30px;
+        padding-bottom: 17px;
+        bottom: 10%;
+    }
+
+    .about_bottom::before {
+        right: 43%;
+    }
+
+    .about_bottom::after {
+        height: 16px;
+        width: 16px;
+        top: -52px;
+    }
+
+    .about_left {
+        left: -1.5%;
+    }
+
+    .about_left::after {
+        height: 16px;
+        width: 16px;
+        right: -25%;
+    }
+
+    .about_right {
+        right: -0.5%;
+    }
+
+    .about_right::after {
+        height: 16px;
+        width: 16px;
+    }
+
+    .main_circle .circle {
+        width: 170px;
+        height: 170px;
+        border: 10px solid #fff;
+    }
+    /* Service Part */
+    .service_header p {
+        padding-bottom: 81px;
+    }
+
+    /* Pricing Part Start */
+    #pricing {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .pricing_item {
+        margin-bottom: 20px;
+    }
+    /* Counter Part Start */
+    .count_item .content {
+        width: 77px;
+    }
+    .count_item .content h4 {
+        font-size: 25px;
+    }
+    .count_item .content p {
+        font-size: 16px;
+    }
+    /* Team Part Start */
+    #team {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .team_item {
+        margin-bottom: 20px;
+    }
+    /* Btard Part */
+    .brand_item .brand_logo .brand_img {
+        padding: 24px 2px;
+    }
+    /* Footer Part */
+    .foot_item {
+        margin-bottom: 30px;
+    }
+    .foot_item::after {
+        position: absolute;
+        content: "";
+        right: 0;
+        top: revert;
+        height: 1%;
+        width: 100%;
+        background: #fff;
+    }
+    .no_after::after{
+        display: block;
+    }
+}
+
+
+
+/* Small devices (landscape phones, less than 768px) */
+
+@media (max-width: 767.98px) {
+    
+  
+}
+
+
+/* Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+ 
+}
